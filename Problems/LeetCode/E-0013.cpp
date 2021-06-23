@@ -17,7 +17,7 @@ int romanToInt(string s) {
 
     int sum = values[s.back()];
 
-    for(int i=s.length()-2; i>=0; i--) {
+    for(int i=s.size()-2; i>=0; i--) {
         if(values[s[i]] < values[s[i+1]]) {
             sum -= values[s[i]];
         }
@@ -30,11 +30,10 @@ int romanToInt(string s) {
 }
 
 int main() {
-    string s = "";
-    cout<<romanToInt(s);
+    cout<<romanToInt("III")<<"\n";
+    cout<<romanToInt("IV")<<"\n";
+    cout<<romanToInt("LVIII")<<"\n";
+    cout<<romanToInt("MCMXCIV")<<"\n";
+
     return 0;
 }
-
-
-// I SPENT WAY TOO MUCH TIME ON THIS
-// QUESTION GODDAMNIT HOW IS THIS EASY???
