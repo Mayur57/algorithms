@@ -1,3 +1,4 @@
+![header.png](https://i.ibb.co/wYkX9rs/archiv-01.png)
 # Archive
 
 A repository for my implementations of frequently used data structures, essential algorithms, and LeetCode solutions solved as practice.
